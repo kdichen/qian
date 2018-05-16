@@ -161,6 +161,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.chenqian.pojo.Product" >
     update mmall_product
     set category_id = #{categoryId,jdbcType=INTEGER},

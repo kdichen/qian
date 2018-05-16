@@ -181,6 +181,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.chenqian.pojo.Order" >
     update mmall_order
     set order_no = #{orderNo,jdbcType=BIGINT},

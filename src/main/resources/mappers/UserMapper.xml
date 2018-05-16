@@ -138,6 +138,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.chenqian.pojo.User" >
     update mmall_user
     set username = #{username,jdbcType=VARCHAR},

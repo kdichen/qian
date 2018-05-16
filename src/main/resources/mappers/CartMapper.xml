@@ -82,6 +82,7 @@
       </if>
     </trim>
   </insert>
+
   <update id="updateByPrimaryKeySelective" parameterType="com.chenqian.pojo.Cart" >
     update mmall_cart
     <set >
@@ -106,6 +107,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
+
   <update id="updateByPrimaryKey" parameterType="com.chenqian.pojo.Cart" >
     update mmall_cart
     set user_id = #{userId,jdbcType=INTEGER},

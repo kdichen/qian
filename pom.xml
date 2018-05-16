@@ -10,7 +10,6 @@
   <packaging>war</packaging>
 
   <name>qian Maven Webapp</name>
-  <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -24,6 +23,13 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.18</version>
+      <scope>provided</scope>
+    </dependency>
 
     <dependency>
       <groupId>org.apache.tomcat</groupId>
