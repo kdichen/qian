@@ -36,7 +36,7 @@ public interface CategoryMapper {
     int insertSelective(Category record);
 
     /**
-     * 选择性查询分类
+     * 查询分类
      *
      * @param id 分类ID
      * @return
