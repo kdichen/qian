@@ -7,15 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aff408d-711e-48f9-a92c-eca43b484ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/ICartService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/CartServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/BigDecimalUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/vo/CartProductVo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/vo/CartVo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/CartMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/CartMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/IShippingService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/ShippingServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,11 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="CartController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java">
+      <file leaf-file-name="ShippingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2694">
-              <caret line="153" column="39" lean-forward="true" selection-start-line="153" selection-start-column="39" selection-end-line="153" selection-end-column="39" />
+            <state relative-caret-position="1362">
+              <caret line="103" column="26" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ICartService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/ICartService.java">
+      <file leaf-file-name="IShippingService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/IShippingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="59" column="7" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="228">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/CartServiceImpl.java">
+      <file leaf-file-name="ShippingServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/ShippingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="1634">
+              <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/dao/CartMapper.java">
+      <file leaf-file-name="ShippingMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="1216">
+              <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,21 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
+      <file leaf-file-name="ShippingMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="85" column="72" lean-forward="false" selection-start-line="85" selection-start-column="72" selection-end-line="85" selection-end-column="72" />
+            <state relative-caret-position="6">
+              <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
               <folding>
-                <marker date="1526571696915" expanded="true" signature="1139:1255" ph="select from mmall_cart" />
-                <marker date="1526571696915" expanded="true" signature="1345:1405" ph="delete from mmall_cart... " />
-                <marker date="1526571696915" expanded="true" signature="1486:1774" ph="insert into mmall_cart... " />
-                <marker date="1526571696915" expanded="true" signature="3421:4199" ph="update mmall_cart... " />
-                <marker date="1526571696915" expanded="true" signature="4295:4618" ph="update mmall_cart... " />
-                <marker date="1526571696915" expanded="true" signature="4732:4878" ph="SELECT from mmall_cart" />
-                <marker date="1526571696915" expanded="true" signature="4985:5093" ph="SELECT from mmall_cart" />
-                <marker date="1526571696915" expanded="true" signature="5250:5324" ph="SELECT count... mmall_cart" />
-                <marker date="1526571696915" expanded="true" signature="6105:6186" ph="select IFNUL... " />
+                <marker date="1526609268534" expanded="true" signature="1723:1843" ph="select from mmall_shipping" />
+                <marker date="1526609268534" expanded="true" signature="1933:1997" ph="delete from mmall_shipping... " />
+                <marker date="1526609268534" expanded="true" signature="2123:2741" ph="insert into mmall_shipping... " />
+                <marker date="1526609268534" expanded="true" signature="5535:7032" ph="update mmall_shipping... " />
+                <marker date="1526609268534" expanded="true" signature="7132:7791" ph="update mmall_shipping... " />
+                <marker date="1526609268534" expanded="true" signature="7872:7957" ph="DELETE FROM mmall_shipping" />
+                <marker date="1526609268534" expanded="true" signature="8053:8699" ph="update mmall_shipping... " />
+                <marker date="1526609268534" expanded="true" signature="8810:8953" ph="SELECT from mmall_shipping" />
+                <marker date="1526609268534" expanded="true" signature="9056:9168" ph="SELECT from mmall_shipping" />
               </folding>
             </state>
           </provider>
@@ -125,8 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>method = RequestMethod.GET</find>
-      <find>mmall</find>
       <find>com.mmal</find>
       <find>resultMap</find>
       <find>userService</find>
@@ -155,6 +149,8 @@
       <find>selectByNameAndCategoryIds</find>
       <find>ResponseCode</find>
       <find>updateByPrimaryKeySelective</find>
+      <find>insert</find>
+      <find>com.mmall.pojo</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -185,11 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/IUserSerice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/enums/ResponseCodeEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/Md5Util.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/ServerResponse.java" />
@@ -236,6 +227,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/dao/CartMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/CartServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/ShippingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/IShippingService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
       </list>
     </option>
   </component>
@@ -282,11 +278,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
-    <option name="y" value="29" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="650" />
+    <option name="y" value="151" />
     <option name="width" value="1709" />
-    <option name="height" value="1020" />
+    <option name="height" value="921" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -431,6 +427,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chenqian" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chenqian" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -515,7 +520,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;cartM&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;cartMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;car&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;Carma&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;produ&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;productMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;product&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;index.&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/index.jsp&#10;ProductMapper&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;userm&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;ca&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;category&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user*.xm&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;applicationContext-datasource.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/applicationContext-datasource.xml&#10;user.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;propertie&#9;FILE&#9;file://C:/MT/qian/src/main/resources/datasource.properties&#10;usermap&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;userma&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;cons&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/common/Const.java&#10;UserM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml" />
+    <property name="SearchEverywhereHistoryKey" value="Shipping&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ShippingMapper.xml&#10;cartM&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;cartMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;car&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;Carma&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;produ&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;productMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;product&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;index.&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/index.jsp&#10;ProductMapper&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;userm&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;ca&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;category&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user*.xm&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;applicationContext-datasource.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/applicationContext-datasource.xml&#10;user.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;propertie&#9;FILE&#9;file://C:/MT/qian/src/main/resources/datasource.properties&#10;usermap&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;userma&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;cons&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/common/Const.java&#10;UserM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -661,7 +666,7 @@
       <workItem from="1526475340193" duration="6202000" />
       <workItem from="1526481552071" duration="6797000" />
       <workItem from="1526521479136" duration="20957000" />
-      <workItem from="1526558326804" duration="13768000" />
+      <workItem from="1526558326804" duration="17004000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1526401015047</created>
@@ -674,7 +679,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70712000" />
+    <option name="totallyTimeSpent" value="73948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -686,10 +691,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="644" y="29" width="1709" height="1020" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47752127" sideWeight="0.5114268" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50177515" sideWeight="0.51133907" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13120951" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -697,7 +702,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5018226" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7633136" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.49784017" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -707,8 +712,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.63822895" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4887574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47752127" sideWeight="0.4885732" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.291538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5988166" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33292156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -760,61 +765,15 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="32" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-854">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/UserManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="39" column="55" lean-forward="false" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="42" column="83" lean-forward="false" selection-start-line="42" selection-start-column="83" selection-end-line="42" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/PayInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="247" column="4" lean-forward="false" selection-start-line="247" selection-start-column="4" selection-end-line="251" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -912,7 +871,7 @@
         <state relative-caret-position="1026">
           <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -944,7 +903,7 @@
         <state relative-caret-position="433">
           <caret line="72" column="18" lean-forward="false" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,7 +992,7 @@
         <state relative-caret-position="0">
           <caret line="31" column="32" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1076,7 +1035,7 @@
         <state relative-caret-position="366">
           <caret line="78" column="29" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1086,7 +1045,7 @@
         <state relative-caret-position="190">
           <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1117,28 +1076,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/enums/ResponseCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1184,7 +1127,7 @@
         <state relative-caret-position="186">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1235,10 +1178,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/CartServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="36">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/enums/ResponseCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="961">
+          <caret line="230" column="7" lean-forward="true" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1362">
+          <caret line="103" column="26" lean-forward="false" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/IShippingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/ShippingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="7" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1216">
+          <caret line="64" column="15" lean-forward="false" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <marker date="1526609268534" expanded="true" signature="1723:1843" ph="select from mmall_shipping" />
+            <marker date="1526609268534" expanded="true" signature="1933:1997" ph="delete from mmall_shipping... " />
+            <marker date="1526609268534" expanded="true" signature="2123:2741" ph="insert into mmall_shipping... " />
+            <marker date="1526609268534" expanded="true" signature="5535:7032" ph="update mmall_shipping... " />
+            <marker date="1526609268534" expanded="true" signature="7132:7791" ph="update mmall_shipping... " />
+            <marker date="1526609268534" expanded="true" signature="7872:7957" ph="DELETE FROM mmall_shipping" />
+            <marker date="1526609268534" expanded="true" signature="8053:8699" ph="update mmall_shipping... " />
+            <marker date="1526609268534" expanded="true" signature="8810:8953" ph="SELECT from mmall_shipping" />
+            <marker date="1526609268534" expanded="true" signature="9056:9168" ph="SELECT from mmall_shipping" />
           </folding>
         </state>
       </provider>
