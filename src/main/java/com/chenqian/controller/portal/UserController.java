@@ -46,8 +46,6 @@ public class UserController {
         if (response.isSuccess()) {
             // 登录时候的jcssionId
             CookieUtil.writeLoginToken(httpServletResponse, session.getId());
-            CookieUtil.readLoginToken(httpServletRequest);
-            CookieUtil.delLoginToken(httpServletRequest, httpServletResponse);
             // 登录时候设置session有效期为30分钟
             RedisPoolUtil.setEx(session.getId(), JsonUtil.obj2String(response.getData()), Const.RedisCacheExTime.REDIS_SESSION_EX_TIME);
         }

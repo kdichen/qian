@@ -7,147 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aff408d-711e-48f9-a92c-eca43b484ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/JsonUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PaymentTypeEnum.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$RedisCacheExTime.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/RedisPool.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/OrderManageController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/util/JsonUtil$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/util/JsonUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/util/RedisPoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/vo/OrderProductVo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$PaymentTypeEnum.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$RedisCacheExTime.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/RedisPool.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/backend/OrderManageController.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/JsonUtil$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/JsonUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/RedisPoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/OrderProductVo.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/avro-1.8.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/cache-api-1.0.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-compress-1.8.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-pool2-2.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-annotations-2.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-core-2.6.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-databind-2.6.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-dataformat-avro-2.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-dataformat-yaml-2.6.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jedis-2.6.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/lombok-1.16.18.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-buffer-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-codec-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-common-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-handler-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-resolver-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-transport-4.1.8.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/paranamer-2.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactive-streams-1.0.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactor-core-2.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactor-stream-2.0.8.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/redisson-2.9.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/snakeyaml-1.15.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/snappy-java-1.1.1.3.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-commons-1.12.1.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-keyvalue-1.1.1.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-redis-1.7.1.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-oxm-4.0.3.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-session-1.2.0.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-session-data-redis-1.2.0.RELEASE.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/xz-1.5.jar" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/DemoHbRunner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alipay/demo/trade/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/util/PropertiesUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/PropertiesUtil.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/DemoHbRunner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/Main$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/alipay/demo/trade/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$OrderStatusEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$OrderStatusEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PayPlatformEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PayPlatformEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductListOrderBy.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductListOrderBy.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductStatusEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductStatusEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/dao/CartMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/dao/CartMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/dao/OrderItemMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/dao/OrderItemMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/dao/OrderMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/dao/OrderMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/service/IOrderService.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/service/IOrderService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/OrderServiceImpl$1.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/OrderServiceImpl$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/OrderServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/util/PropertiesUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/util/PropertiesUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" afterPath="$PROJECT_DIR$/target/classes/datasource.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="$PROJECT_DIR$/target/classes/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CartMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/CategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderItemMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/OrderItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/PayInfoMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/PayInfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/ProductMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/ShippingMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mappers/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/classes/mmall.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/mmall.war" afterPath="$PROJECT_DIR$/target/mmall.war" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/alipay/demo/trade/DemoHbRunner.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/alipay/demo/trade/Main$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/alipay/demo/trade/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$OrderStatusEnum.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$OrderStatusEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$PayPlatformEnum.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$PayPlatformEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductListOrderBy.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductListOrderBy.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductStatusEnum.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductStatusEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/OrderController.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/OrderController.class" />
       <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/UserController.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/CartMapper.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/CartMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderItemMapper.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderItemMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderMapper.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IOrderService.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IOrderService.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl$1.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/PropertiesUtil.class" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/PropertiesUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/generatorConfig.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CartMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderItemMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderItemMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/PayInfoMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/PayInfoMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ShippingMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ShippingMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-pool2-2.4.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jedis-2.9.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-oxm-4.0.0.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-test-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-test-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterPath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" />
-      <change beforePath="$PROJECT_DIR$/target/mmall/index.jsp" afterPath="$PROJECT_DIR$/target/mmall/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/upload/qr-1492091102371.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/upload/qr-1492091110004.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -183,14 +52,14 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="49" column="76" lean-forward="false" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
+            <state relative-caret-position="152">
+              <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -200,11 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieUtil.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            <state relative-caret-position="154">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -215,7 +94,7 @@
       <file leaf-file-name="RedisPoolUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
+            <state relative-caret-position="-1148">
               <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
               <folding />
             </state>
@@ -376,8 +255,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" />
       </list>
     </option>
   </component>
@@ -415,10 +294,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="695" />
-    <option name="y" value="59" />
-    <option name="width" value="1911" />
-    <option name="height" value="831" />
+    <option name="x" value="665" />
+    <option name="y" value="119" />
+    <option name="width" value="1537" />
+    <option name="height" value="836" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -536,7 +415,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qian_tomcat2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qian_2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -766,7 +645,7 @@
       <workItem from="1527163349125" duration="3479000" />
       <workItem from="1527211589425" duration="4801000" />
       <workItem from="1527216850915" duration="1201000" />
-      <workItem from="1527218081521" duration="252000" />
+      <workItem from="1527218081521" duration="7407000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1526401015047</created>
@@ -779,7 +658,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147089000" />
+    <option name="totallyTimeSpent" value="154244000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,10 +670,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="695" y="59" width="1911" height="831" extended-state="0" />
+    <frame x="665" y="119" width="1537" height="836" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.49784017" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.49568033" order="7" side_tool="false" content_ui="tabs" />
@@ -804,23 +684,22 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.63822895" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57570976" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.64788735" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19604613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24671735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19168466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58321273" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73865414" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33016628" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -873,76 +752,82 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/chenqian/util/JsonUtil.java</url>
           <line>157</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="50" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>response</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Cookie(COOKIE_NAME, token)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new Cookie(COOKIE_NAME, token</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ck</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cookies</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cookie</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpServletResponse</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>request</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>session</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>session.getId()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>userList2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>userList1</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>userList1.get(0).getId()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.ArrayList</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>userList1.get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.ArrayList</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((ArrayList) userList1).size</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.util.ArrayList</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>user1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="65" column="19" lean-forward="true" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/XMLConfigBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1241,9 +1126,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="157" column="28" lean-forward="false" selection-start-line="157" selection-start-column="19" selection-end-line="157" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,37 +1157,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
+        <state relative-caret-position="-1148">
           <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        <state relative-caret-position="154">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="49" column="76" lean-forward="false" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
