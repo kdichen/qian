@@ -11,6 +11,8 @@ import java.util.Properties;
 /**
  * @Author: 陈谦
  * @Date: 2018/5/16 22:05
+ * <p>
+ * 读取配置文件工具类
  */
 
 public class PropertiesUtil {

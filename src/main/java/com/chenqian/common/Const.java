@@ -21,6 +21,12 @@ public class Const {
 
     public static final String USERNAME = "username";
 
+    public interface RedisCacheExTime{
+        // 30
+        int REDIS_SESSION_EX_TIME = 60 * 30;
+
+    }
+
     public interface ProductListOrderBy {
         /**
          * [与前端的约定]: 用下划线风格, 后面说明是升序还是降序
