@@ -2,11 +2,11 @@ package com.chenqian.service.impl;
 
 import com.chenqian.common.Const;
 import com.chenqian.common.ServerResponse;
-import com.chenqian.common.TokenCache;
 import com.chenqian.dao.UserMapper;
 import com.chenqian.pojo.User;
 import com.chenqian.service.IUserService;
 import com.chenqian.util.MD5Util;
+import com.chenqian.util.RedisPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -135,7 +135,7 @@ public class UserServiceImpl implements IUserService {
         int resultCount = userMapper.checkAnswer(username, question, answer);
         if (resultCount > 0) {
             String forgetToken = UUID.randomUUID().toString();
-            TokenCache.setKey(TokenCache.TOKEN_PREFIX + username, forgetToken);
+            RedisPoolUtil.setEx(Const.TOKEN_PREFIX + username, forgetToken, 60 * 60 * 12);
             return ServerResponse.createBySuccessMessage(forgetToken);
         }
         return ServerResponse.createByErrorMessage("问题的答案错误");
@@ -156,10 +156,12 @@ public class UserServiceImpl implements IUserService {
         }
 
         ServerResponse validResponse = this.checkValid(username, Const.USERNAME);
-        if (validResponse.isSuccess()) {
-            return validResponse;
+        if(validResponse.isSuccess()){
+            //用户不存在
+            return ServerResponse.createByErrorMessage("用户不存在");
         }
-        String tonKen = TokenCache.getKey(TokenCache.TOKEN_PREFIX + username);
+        String tonKen = RedisPoolUtil.get(Const.TOKEN_PREFIX+username);
+
         if (StringUtils.isBlank(tonKen)) {
             return ServerResponse.createByErrorMessage("token无效或过期");
         }
@@ -235,7 +237,7 @@ public class UserServiceImpl implements IUserService {
      * @return
      */
     @Override
-    public ServerResponse<User> getInformation(Integer userId){
+    public ServerResponse<User> getInformation(Integer userId) {
         User user = userMapper.selectByPrimaryKey(userId);
         if (user == null) {
             return ServerResponse.createByErrorMessage("找不到当前用户");
@@ -245,14 +247,16 @@ public class UserServiceImpl implements IUserService {
     }
 
     //------------- 后台 ------------
+
     /**
      * 校验是否是管理员
+     *
      * @param user 用户对象
      * @return
      */
     @Override
-    public ServerResponse checkAdminRole(User user){
-        if(user != null && user.getRole().intValue() == Const.Role.ROLE_ADMIN){
+    public ServerResponse checkAdminRole(User user) {
+        if (user != null && user.getRole().intValue() == Const.Role.ROLE_ADMIN) {
             return ServerResponse.createBySuccess();
         }
         return ServerResponse.createByError();

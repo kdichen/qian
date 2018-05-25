@@ -21,6 +21,9 @@ public class Const {
 
     public static final String USERNAME = "username";
 
+    public static final  String TOKEN_PREFIX = "token_";
+
+
     public interface RedisCacheExTime{
         // 30
         int REDIS_SESSION_EX_TIME = 60 * 30;
