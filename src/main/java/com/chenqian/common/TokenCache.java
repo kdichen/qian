@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * @Author: 陈谦
  * @Date: 2018/5/16 14:04
  * <p>
- * 缓存[弃用]
+ * 缓存[已弃用]
  */
 public class TokenCache {
     private static Logger logger = LoggerFactory.getLogger(TokenCache.class);
