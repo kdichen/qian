@@ -42,6 +42,16 @@
     <load-on-startup>1</load-on-startup>
   </servlet>
 
+  <!-- 第二版新增重置session时间的filter -->
+  <filter>
+    <filter-name>sessionExpireFilter</filter-name>
+    <filter-class>com.chenqian.controller.common.SessionExpireFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>sessionExpireFilter</filter-name>
+    <url-pattern>*.do</url-pattern>
+  </filter-mapping>
+
 
 
   <servlet-mapping>
