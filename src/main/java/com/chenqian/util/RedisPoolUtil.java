@@ -6,11 +6,8 @@ import redis.clients.jedis.Jedis;
 
 /**
  * @Author: 陈谦
- * @Date: 2018/5/23 22:14
- * <p>
- * jedis API封装
+ * @Date: 2018/5/26 12:40
  */
-
 @Slf4j
 public class RedisPoolUtil {
 
@@ -94,17 +91,18 @@ public class RedisPoolUtil {
 
     /**
      * 删除
+     *
      * @param key
      * @return
      */
-    public static Long del(String key){
+    public static Long del(String key) {
         Jedis jedis = null;
         Long result = null;
         try {
             jedis = RedisPool.getJedis();
             result = jedis.del(key);
         } catch (Exception e) {
-            log.error("del key:{} error",key,e);
+            log.error("del key:{} error", key, e);
             RedisPool.returnBrokenResource(jedis);
             return result;
         }
@@ -114,15 +112,17 @@ public class RedisPoolUtil {
 
     public static void main(String[] args) {
         Jedis jedis = RedisPool.getJedis();
-        RedisPoolUtil.set("keyTest", "valuetest");
+        RedisShardedPoolUtil.set("keyTest", "valuetest");
 
-        String value = RedisPoolUtil.get("keyTest");
+        String value = RedisShardedPoolUtil.get("keyTest");
 
-        RedisPoolUtil.setEx("keyex","valueex",60*10);
+        RedisShardedPoolUtil.setEx("keyex", "valueex", 60 * 10);
 
-        RedisPoolUtil.expire("keyTest",60*20);
+        RedisShardedPoolUtil.expire("keyTest", 60 * 20);
 
-        RedisPoolUtil.del("keyTest");
+        RedisShardedPoolUtil.del("keyTest");
 
     }
+
+
 }

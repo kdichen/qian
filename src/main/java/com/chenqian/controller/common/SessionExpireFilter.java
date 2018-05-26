@@ -4,7 +4,7 @@ import com.chenqian.common.Const;
 import com.chenqian.pojo.User;
 import com.chenqian.util.CookieUtil;
 import com.chenqian.util.JsonUtil;
-import com.chenqian.util.RedisPoolUtil;
+import com.chenqian.util.RedisShardedPoolUtil;
 import org.apache.commons.lang.StringUtils;
 
 import javax.servlet.*;
@@ -28,11 +28,11 @@ public class SessionExpireFilter implements Filter {
         String loginToken = CookieUtil.readLoginToken(httpServletRequest);
         if (StringUtils.isNotEmpty(loginToken)) {
             // 如果loginToken不为空或空字符串, 则从redis中获取信息
-            String userJsonStr = RedisPoolUtil.get(loginToken);
+            String userJsonStr = RedisShardedPoolUtil.get(loginToken);
             User user = JsonUtil.string2Obj(userJsonStr, User.class);
             if (user != null) {
                 //如果user不为空，则重置session的时间，即调用expire命令
-                RedisPoolUtil.expire(loginToken, Const.RedisCacheExTime.REDIS_SESSION_EX_TIME);
+                RedisShardedPoolUtil.expire(loginToken, Const.RedisCacheExTime.REDIS_SESSION_EX_TIME);
 
             }
 

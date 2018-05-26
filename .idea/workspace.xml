@@ -6,7 +6,214 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aff408d-711e-48f9-a92c-eca43b484ad7" name="Default" comment="" />
+    <list default="true" id="9aff408d-711e-48f9-a92c-eca43b484ad7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisShardedPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserSpringSessionController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext-spring-session.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/RedisShardedPool.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/common/SessionExpireFilter.class" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/CategoryManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/CategoryManageController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/OrderManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/OrderManageController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/ProductManageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/ProductManageController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/common/SessionExpireFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/common/SessionExpireFilter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/OrderController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/OrderController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$OrderStatusEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$OrderStatusEnum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PayPlatformEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PayPlatformEnum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PaymentTypeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$PaymentTypeEnum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductListOrderBy.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductListOrderBy.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductStatusEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const$ProductStatusEnum.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/common/Const.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/CategoryManageController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/CategoryManageController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/OrderManageController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/OrderManageController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/ProductManageController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/backend/ProductManageController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/CartController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/CartController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/OrderController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/OrderController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/ShippingController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/ShippingController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/controller/portal/UserController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/chenqian/service/impl/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mmall.properties" afterPath="$PROJECT_DIR$/target/classes/mmall.properties" />
+      <change beforePath="$PROJECT_DIR$/target/mmall.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/META-INF/MANIFEST.MF" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext-datasource.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/applicationContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$AlipayCallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$Cart.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$OrderStatusEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$PayPlatformEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$PaymentTypeEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductListOrderBy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$ProductStatusEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$RedisCacheExTime.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const$Role.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/Const.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/RedisPool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/ServerResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/TokenCache$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/common/TokenCache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/backend/CategoryManageController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/backend/OrderManageController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/backend/ProductManageController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/backend/UserManagerController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/CartController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/OrderController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/ProductController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/ShippingController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/controller/portal/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/CartMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/CategoryMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderItemMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/OrderMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/PayInfoMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/ProductMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/ShippingMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/dao/UserMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/enums/ResponseCodeEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/Cart.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/Category.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/Order.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/OrderItem.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/PayInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/Product.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/Shipping.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/pojo/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/ICartService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/ICategoryService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IFileService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IOrderService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IProductService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IShippingService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/IUserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/CartServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/CategoryServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/FileServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/OrderServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/ProductServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/ShippingServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/service/impl/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/BigDecimalUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/CookieUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/DateTimeUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/FTPUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/JsonUtil$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/JsonUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/MD5Util.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/PropertiesUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/util/RedisPoolUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/CartProductVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/CartVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/OrderItemVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/OrderProductVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/OrderVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/ProductDetailVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/ProductListVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/com/chenqian/vo/ShippingVo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/datasource.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/generatorConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/logback.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CartMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/CategoryMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderItemMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/OrderMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/PayInfoMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ProductMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/ShippingMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mappers/UserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/mmall.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/classes/zfbinfo.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/dispatcher-servlet.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/alipay-sdk-java20161213173952-source.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/alipay-sdk-java20161213173952.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/alipay-trade-sdk-20161215-source.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/alipay-trade-sdk-20161215.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/aspectjrt-1.6.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/aspectjweaver-1.7.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/avro-1.8.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/cache-api-1.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-compress-1.8.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-configuration-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-fileupload-1.2.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-io-2.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-lang3-3.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-net-3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-pool-1.5.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/commons-pool2-2.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/core-2.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/gson-2.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/guava-20.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/hamcrest-core-1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/hashids-1.0.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-core-2.6.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-core-asl-1.9.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-databind-2.6.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-dataformat-avro-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-dataformat-yaml-2.6.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jedis-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/joda-time-2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/jsqlparser-0.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/logback-classic-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/logback-core-1.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/lombok-1.16.18.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/mybatis-3.4.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/mybatis-paginator-1.2.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-buffer-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-codec-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-common-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-handler-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-resolver-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/netty-transport-4.1.8.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/pagehelper-4.1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/paranamer-2.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactive-streams-1.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactor-core-2.0.8.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/reactor-stream-2.0.8.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/redisson-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/slf4j-api-1.7.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/snakeyaml-1.15.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/snappy-java-1.1.1.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-commons-1.12.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-keyvalue-1.1.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-data-redis-1.7.1.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-jdbc-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-oxm-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-session-1.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-session-data-redis-1.2.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-test-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-tx-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/tomcat-servlet-api-7.0.64.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/lib/xz-1.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/mmall/index.jsp" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,61 +245,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="RedisPoolUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2318">
+              <caret line="124" column="5" lean-forward="false" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisShardedPoolUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSpringSessionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserSpringSessionController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-spring-session.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-spring-session.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1064">
+              <caret line="72" column="65" lean-forward="true" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+            <state relative-caret-position="25">
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="RedisPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="157" column="81" lean-forward="true" selection-start-line="157" selection-start-column="81" selection-end-line="157" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenCache.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/TokenCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/ProductManageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserManagerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/UserManagerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="38" column="72" lean-forward="false" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+            <state relative-caret-position="152">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,10 +359,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>parseStatementNode</find>
-      <find>builderAssistant.addMappedStatement</find>
-      <find>addMappedStatement</find>
-      <find>build</find>
       <find>buil</find>
       <find>public SqlSession</find>
       <find>selectList(string</find>
@@ -140,6 +385,10 @@
       <find>session</find>
       <find>TokenCache.setk</find>
       <find>TOKEN_PREFIX</find>
+      <find>password</find>
+      <find>RedisShardedPoolUtil</find>
+      <find>spring sessio</find>
+      <find>CURRENT_USER</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -172,14 +421,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/IProductService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ProductController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/vo/CartProductVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/vo/CartVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/BigDecimalUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/ICartService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/CartServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/ShippingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ShippingMapper.java" />
@@ -203,19 +444,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java" />
         <option value="$USER_HOME$/Documents/WeChat Files/kdichenqian/Files/ParseJson.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/JsonUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/CookieUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/common/SessionExpireFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/OrderManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/OrderController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/ProductManageController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/backend/CategoryManageController.java" />
@@ -223,6 +459,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/TokenCache.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisShardedPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtilBark.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/Temp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserSpringSessionController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java" />
       </list>
     </option>
   </component>
@@ -260,10 +509,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="4" />
+    <option name="x" value="815" />
+    <option name="y" value="16" />
     <option name="width" value="1800" />
-    <option name="height" value="873" />
+    <option name="height" value="896" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -327,7 +576,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -368,6 +616,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chenqian" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chenqian" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,18 +637,35 @@
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="portal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="qian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chenqian" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qian" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qian" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../qian_2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mmallv4.0" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -399,15 +673,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="web.x&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/WEB-INF/web.xml&#10;index.&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/index.jsp&#10;Const&#9;PSI&#9;JAVA://com.chenqian.common.Const&#10;userC&#9;PSI&#9;JAVA://com.chenqian.controller.portal.UserController&#10;mmall.pro&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mmall.properties&#10;mmal.&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mmall.properties&#10;Basestate&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.BaseStatementHandler&#10;StatementHandle&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.StatementHandler&#10;selectone&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession#selectOne&#10;selectOne&#9;PSI&#9;JAVA://org.apache.ibatis.jdbc.SqlRunner#selectOne&#10;SelectOne&#9;PSI&#9;JAVA://org.apache.ibatis.jdbc.SqlRunner#selectOne&#10;SqlSessionFactoryBuilder&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class&#10;MappedStateMent &#9;PSI&#9;JAVA://org.apache.ibatis.mapping.MappedStatement&#10;XmlStatementBuilder&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class&#10;builderAssistant&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class&#10;MappedStatement &#9;PSI&#9;JAVA://org.apache.ibatis.executor.loader.ResultLoader#mappedStatement&#10;XmlMapperBuilder&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLMapperBuilder&#10;MapperElement&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLConfigBuilder#mapperElement&#10;controller&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/controller/backend/OrderManageController.java&#10;orderMapper&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderMapper.java&#10;orderItemMapper&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderItemMapper.java&#10;orderm&#9;PSI&#9;JAVA://com.chenqian.dao.OrderMapper&#10;orderc&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/controller/portal/OrderController.java&#10;order&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/OrderItemMapper.xml&#10;OrderI&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderItemMapper.java&#10;OrderM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/OrderMapper.xml&#10;Shipping&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ShippingMapper.xml&#10;cartM&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;cartMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;car&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;Carma&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;produ&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;productMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;product&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;ProductMapper&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;userm&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;ca&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;category&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user*.xm&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;applicationContext-datasource.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/applicationContext-datasource.xml&#10;user.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;propertie&#9;FILE&#9;file://C:/MT/qian/src/main/resources/datasource.properties&#10;usermap&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;userma&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;cons&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/common/Const.java&#10;UserM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;PSI&#9;JAVA://com.chenqian.pojo.User&#10;we&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/WEB-INF/web.xml&#10;pom&#9;FILE&#9;file://C:/MT/qian/pom.xml&#10;web.x&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/WEB-INF/web.xml&#10;index.&#9;FILE&#9;file://C:/MT/qian/src/main/webapp/index.jsp&#10;Const&#9;PSI&#9;JAVA://com.chenqian.common.Const&#10;userC&#9;PSI&#9;JAVA://com.chenqian.controller.portal.UserController&#10;mmall.pro&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mmall.properties&#10;mmal.&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mmall.properties&#10;Basestate&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.BaseStatementHandler&#10;StatementHandle&#9;PSI&#9;JAVA://org.apache.ibatis.executor.statement.StatementHandler&#10;selectone&#9;PSI&#9;JAVA://org.apache.ibatis.session.SqlSession#selectOne&#10;selectOne&#9;PSI&#9;JAVA://org.apache.ibatis.jdbc.SqlRunner#selectOne&#10;SelectOne&#9;PSI&#9;JAVA://org.apache.ibatis.jdbc.SqlRunner#selectOne&#10;SqlSessionFactoryBuilder&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class&#10;MappedStateMent &#9;PSI&#9;JAVA://org.apache.ibatis.mapping.MappedStatement&#10;XmlStatementBuilder&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class&#10;builderAssistant&#9;FILE&#9;jar://C:/Maven/maven_repository/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class&#10;MappedStatement &#9;PSI&#9;JAVA://org.apache.ibatis.executor.loader.ResultLoader#mappedStatement&#10;XmlMapperBuilder&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLMapperBuilder&#10;MapperElement&#9;PSI&#9;JAVA://org.apache.ibatis.builder.xml.XMLConfigBuilder#mapperElement&#10;controller&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/controller/backend/OrderManageController.java&#10;orderMapper&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderMapper.java&#10;orderItemMapper&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderItemMapper.java&#10;orderm&#9;PSI&#9;JAVA://com.chenqian.dao.OrderMapper&#10;orderc&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/controller/portal/OrderController.java&#10;order&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/OrderItemMapper.xml&#10;OrderI&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/OrderItemMapper.java&#10;OrderM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/OrderMapper.xml&#10;Shipping&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ShippingMapper.xml&#10;cartM&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;cartMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;car&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CartMapper.xml&#10;Carma&#9;PSI&#9;JAVA://com.chenqian.dao.CartMapper&#10;produ&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;productMapp&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;product&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;ProductMapper&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/ProductMapper.xml&#10;userm&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;ca&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;category&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/CategoryMapper.xml&#10;user*.xm&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;applicationContext-datasource.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/applicationContext-datasource.xml&#10;user.xml&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;propertie&#9;FILE&#9;file://C:/MT/qian/src/main/resources/datasource.properties&#10;usermap&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/dao/UserMapper.java&#10;userma&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml&#10;cons&#9;FILE&#9;file://C:/MT/qian/src/main/java/com/chenqian/common/Const.java&#10;UserM&#9;FILE&#9;file://C:/MT/qian/src/main/resources/mappers/UserMapper.xml" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chenqian.controller.portal" />
+      <recent name="com.chenqian.controller" />
+      <recent name="com.chenqian.util" />
       <recent name="com.alipay.demo.trade" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MT\qian\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\MT\qian\src\main\resources" />
+      <recent name="C:\MT\qian\src\main\webapp\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -422,7 +699,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat1">
+  <component name="RunManager" selected="Application.RedisShardedPool">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -457,9 +734,23 @@
       <module name="qian" />
       <envs />
     </configuration>
-    <configuration name="RedisPoolUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RedisShardedPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.chenqian.util.RedisPoolUtil" />
+      <option name="MAIN_CLASS_NAME" value="com.chenqian.common.RedisShardedPool" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="qian" />
+      <envs />
+    </configuration>
+    <configuration name="RedisShardedPoolUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.chenqian.util.RedisShardedPoolUtil" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -569,17 +860,19 @@
         </option>
       </method>
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat1" />
       <item index="1" class="java.lang.String" itemvalue="Application.RedisPool" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RedisPoolUtil" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RedisShardedPoolUtil" />
       <item index="3" class="java.lang.String" itemvalue="Application.JsonUtil" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RedisShardedPool" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.JsonUtil" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RedisPoolUtil" />
-        <item index="2" class="java.lang.String" itemvalue="Application.RedisPool" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.RedisShardedPool" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RedisPool" />
+        <item index="2" class="java.lang.String" itemvalue="Application.JsonUtil" />
+        <item index="3" class="java.lang.String" itemvalue="Application.RedisShardedPoolUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +914,8 @@
       <workItem from="1527163349125" duration="3479000" />
       <workItem from="1527211589425" duration="4801000" />
       <workItem from="1527216850915" duration="1201000" />
-      <workItem from="1527218081521" duration="20131000" />
+      <workItem from="1527218081521" duration="25651000" />
+      <workItem from="1527314023600" duration="4306000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1526401015047</created>
@@ -634,7 +928,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166968000" />
+    <option name="totallyTimeSpent" value="176794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -646,39 +940,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="4" width="1800" height="873" extended-state="0" />
+    <frame x="815" y="16" width="1800" height="896" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50177515" sideWeight="0.51133907" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24982357" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19168466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21775147" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781065" sideWeight="0.49784017" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.49568033" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6840237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50177515" sideWeight="0.51133907" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35730994" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14878398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.63822895" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3402367" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22361809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6638054" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22748537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19168466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24970761" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48640916" sideWeight="0.49660283" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5565006" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33016628" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -734,13 +1029,23 @@
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisShardedPool.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="60" />
+      <option name="time" value="61" />
     </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -792,132 +1097,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/xml/XMLStatementBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="80" column="44" lean-forward="false" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/builder/MapperBuilderAssistant.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="23" column="42" lean-forward="false" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/mapping/ParameterMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="47" column="24" lean-forward="false" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/mapping/BoundSql.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="63" column="54" lean-forward="false" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="52" column="3" lean-forward="false" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="75" column="9" lean-forward="false" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="136" column="34" lean-forward="false" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="95" column="40" lean-forward="false" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/jdbc/SqlRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/SqlSessionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="200" column="41" lean-forward="false" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/SqlSessionTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="222" column="40" lean-forward="true" selection-start-line="222" selection-start-column="40" selection-end-line="222" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/SqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="169" column="17" lean-forward="false" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/executor/BaseExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="132" column="26" lean-forward="false" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/executor/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/executor/CachingExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="92" column="21" lean-forward="false" selection-start-line="92" selection-start-column="21" selection-end-line="92" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/executor/BatchExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="82" column="28" lean-forward="false" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.1/mybatis-3.4.1-sources.jar!/org/apache/ibatis/executor/loader/ResultLoaderMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -974,20 +1153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/DateTimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1021,26 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="37" />
-          <folding>
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2245#2246#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="5" lean-forward="false" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,28 +1204,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="45" column="10" lean-forward="true" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/common/SessionExpireFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1090,7 +1218,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="138" column="65" lean-forward="true" selection-start-line="138" selection-start-column="65" selection-end-line="138" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,14 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
           <caret line="233" column="32" lean-forward="false" selection-start-line="233" selection-start-column="32" selection-end-line="233" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="50" column="65" lean-forward="true" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -1130,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,14 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
           <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1168,8 +1278,260 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/TokenCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.chenqian.common.RedisShardedPool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.chenqian.common.RedisShardedPool</OriginalElement>
+          <nodes>
+            <node x="" y="">com.chenqian.common.RedisShardedPool</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="116.0" y="23.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JIGSAW/jedis">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JIGSAW</ID>
+          <OriginalElement>jedis</OriginalElement>
+          <nodes>
+            <node x="" y="">jedis</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="46.0" y="23.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/redis.clients.util.Pool">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>redis.clients.util.Pool</OriginalElement>
+          <nodes>
+            <node x="" y="">java.io.Closeable</node>
+            <node x="" y="">redis.clients.util.Pool</node>
+            <node x="" y="">java.lang.AutoCloseable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="119.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/redis/clients/util/Pool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/redis/clients/jedis/ShardedJedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/redis/clients/jedis/JedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="61" column="108" lean-forward="false" selection-start-line="61" selection-start-column="100" selection-end-line="61" selection-end-column="108" />
+          <folding>
+            <marker date="1527082439604" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1527082439604" expanded="false" signature="143:348" ph="..." />
+            <marker date="1527082439604" expanded="true" signature="465:547" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="593:694" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="730:1498" ph="{...}" />
+            <marker date="1527082439604" expanded="false" signature="1529:1540" ph=" { " />
+            <marker date="1527082439604" expanded="false" signature="1592:1598" ph=" }" />
+            <marker date="1527082439604" expanded="false" signature="1642:1653" ph=" { " />
+            <marker date="1527082439604" expanded="false" signature="1703:1709" ph=" }" />
+            <marker date="1527082439604" expanded="true" signature="1821:1902" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="1984:2066" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="2161:2246" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="2372:2460" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="2605:2710" ph="{...}" />
+            <marker date="1527082439604" expanded="false" signature="2777:2788" ph=" { " />
+            <marker date="1527082439604" expanded="false" signature="2821:2827" ph=" }" />
+            <marker date="1527082439604" expanded="true" signature="2908:3123" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="3156:3270" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="3325:3430" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="3479:3613" ph="{...}" />
+            <marker date="1527082439604" expanded="true" signature="3645:3767" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/redis/clients/jedis/JedisShardInfo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="88" column="27" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisShardedPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2780#2781#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2937#2938#0" expanded="true" />
+            <element signature="e#2999#3000#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/Temp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="124" column="5" lean-forward="false" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="redis://IedisURI?type=Explorer&amp;label=redis2&amp;host=127.0.0.1&amp;port=6380&amp;password=admin&amp;timestamp=1527314054941&amp;nodeHost=127.0.0.1&amp;nodePort=6380">
+      <provider selected="true" editor-type-id="x">
+        <state />
+      </provider>
+    </entry>
+    <entry file="redis://IedisURI?type=Explorer&amp;label=redis1&amp;host=127.0.0.1&amp;port=6379&amp;password=&amp;timestamp=1527314085813&amp;nodeHost=127.0.0.1&amp;nodePort=6379">
+      <provider selected="true" editor-type-id="x">
+        <state />
+      </provider>
+    </entry>
+    <entry file="redis://IedisURI?type=Terminal&amp;label=redis2&amp;host=127.0.0.1&amp;port=6380&amp;password=admin&amp;timestamp=1527314054941&amp;nodeHost=127.0.0.1&amp;nodePort=6380">
+      <provider selected="true" editor-type-id="x">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="259" column="22" lean-forward="false" selection-start-line="259" selection-start-column="9" selection-end-line="259" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ShippingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="72" column="65" lean-forward="true" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserSpringSessionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-spring-session.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
           <folding />
         </state>
       </provider>

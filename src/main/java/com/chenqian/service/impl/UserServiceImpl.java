@@ -6,7 +6,7 @@ import com.chenqian.dao.UserMapper;
 import com.chenqian.pojo.User;
 import com.chenqian.service.IUserService;
 import com.chenqian.util.MD5Util;
-import com.chenqian.util.RedisPoolUtil;
+import com.chenqian.util.RedisShardedPoolUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -135,7 +135,7 @@ public class UserServiceImpl implements IUserService {
         int resultCount = userMapper.checkAnswer(username, question, answer);
         if (resultCount > 0) {
             String forgetToken = UUID.randomUUID().toString();
-            RedisPoolUtil.setEx(Const.TOKEN_PREFIX + username, forgetToken, 60 * 60 * 12);
+            RedisShardedPoolUtil.setEx(Const.TOKEN_PREFIX + username, forgetToken, 60 * 60 * 12);
             return ServerResponse.createBySuccessMessage(forgetToken);
         }
         return ServerResponse.createByErrorMessage("问题的答案错误");
@@ -160,7 +160,7 @@ public class UserServiceImpl implements IUserService {
             //用户不存在
             return ServerResponse.createByErrorMessage("用户不存在");
         }
-        String tonKen = RedisPoolUtil.get(Const.TOKEN_PREFIX+username);
+        String tonKen = RedisShardedPoolUtil.get(Const.TOKEN_PREFIX+username);
 
         if (StringUtils.isBlank(tonKen)) {
             return ServerResponse.createByErrorMessage("token无效或过期");
