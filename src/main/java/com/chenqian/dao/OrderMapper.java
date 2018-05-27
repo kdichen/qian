@@ -86,12 +86,31 @@ public interface OrderMapper {
      */
     List<Order> selectByUserId(Integer userId);
 
+    /**
+     * 定时关闭订单
+     *
+     * @param status 状态
+     * @param date   时间
+     * @return
+     */
+    List<Order> selectOrderStatusByCreateTime(@Param("status") Integer status, @Param("date") String date);
+
+    /**
+     * 关闭订单
+     * @param id 订单Id
+     * @return
+     */
+    int closeOrderByOrderId(Integer id);
+
+
     // -------------  后台 ---------------
 
     /**
      * 订单详情(带分页)
+     *
      * @return
      */
     List<Order> selectAllOrder();
+
 
 }

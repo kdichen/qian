@@ -74,18 +74,24 @@ public interface ProductMapper {
      * @param productId
      * @return
      */
-    List<Product> selectByNameAndProductId(@Param("productName")String productName, @Param("productId") Integer productId);
+    List<Product> selectByNameAndProductId(@Param("productName") String productName, @Param("productId") Integer productId);
 
     /**
      * 关键字搜索
      *
-     * @param productName 商品名字
+     * @param productName    商品名字
      * @param categoryIdList 分类集合
      * @return
      */
-    List<Product> selectByNameAndCategoryIds(@Param("productName")String productName,@Param("categoryIdList")List<Integer> categoryIdList);
+    List<Product> selectByNameAndCategoryIds(@Param("productName") String productName, @Param("categoryIdList") List<Integer> categoryIdList);
 
-
+    /**
+     * 悲观锁
+     *
+     * @param id
+     * @return
+     */
+    Integer selectStockByProductId(Integer id);
 
 
 }
