@@ -7,14 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9aff408d-711e-48f9-a92c-eca43b484ad7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/OrderMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/OrderMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ProductMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/dao/ProductMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/service/IOrderService.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/IOrderService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/OrderServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mmall.properties" afterPath="$PROJECT_DIR$/src/main/resources/mmall.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,34 +42,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/ProductController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="70" column="7" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CloseOrderTask.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+            <state relative-caret-position="110">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Const.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="172" column="11" lean-forward="false" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisShardedPoolUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,8 +87,8 @@
       <file leaf-file-name="mmall.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="346">
+              <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -259,7 +253,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/OrderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/CartController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/controller/portal/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/TokenCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/RedisPool.java" />
@@ -294,6 +287,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mmall.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java" />
       </list>
     </option>
@@ -332,8 +326,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="524" />
-    <option name="y" value="202" />
+    <option name="x" value="608" />
+    <option name="y" value="208" />
     <option name="width" value="1709" />
     <option name="height" value="870" />
   </component>
@@ -776,7 +770,7 @@
       <workItem from="1527211589425" duration="4801000" />
       <workItem from="1527216850915" duration="1201000" />
       <workItem from="1527218081521" duration="25651000" />
-      <workItem from="1527314023600" duration="19428000" />
+      <workItem from="1527314023600" duration="21944000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1526401015047</created>
@@ -789,7 +783,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191916000" />
+    <option name="totallyTimeSpent" value="194432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,7 +795,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="524" y="202" width="1709" height="870" extended-state="0" />
+    <frame x="608" y="208" width="1709" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -824,7 +818,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14878398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.63822895" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3490701" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34769687" sideWeight="0.4886609" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23038913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1145,14 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1255,14 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1404,14 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/service/IOrderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -1420,10 +1390,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mmall.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="172" column="11" lean-forward="false" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/util/RedisShardedPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chenqian/task/CloseOrderTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+        <state relative-caret-position="110">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
